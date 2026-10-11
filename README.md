@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ESVORA
 
-## Getting Started
+### A feeling that stays.
 
-First, run the development server:
+ESVORA is a contemporary fragrance house concept expressed through an editorial, single-page website. Three imagined scents — Aura, Muse, and Noir — explore different moods through original product photography, restrained storytelling, and a small scent-finder interaction.
+
+## Preview
+
+![ESVORA campaign artwork: a blush perfume bottle beside a carved stone ledge](public/images/hero-campaign.webp)
+
+## The experience
+
+- **Editorial art direction** — warm ivory surfaces, espresso typography, soft blush, and sculptural campaign photography.
+- **Three-scent collection** — Aura, Muse, and Noir each carry a distinct mood, proposed notes, and original imagery.
+- **Interactive scent finder** — choose a mood to see its matching fragrance.
+- **Story-led homepage** — collection, fragrance philosophy, scent finder, discovery set, and closing brand copy connect through on-page navigation.
+- **Responsive and accessible details** — mobile navigation, visible keyboard focus, semantic controls, and reduced-motion support.
+
+## Built with
+
+Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · Motion · GSAP · Font Awesome
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Useful commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint        # Check the codebase
+npm run build       # Create a production build
+npm run start       # Serve the production build
+```
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+app/                 App Router page, layout, metadata, and global styles
+components/          Homepage sections and interactions
+public/images/       Original campaign and fragrance photography
+DESIGN.md            Visual, interaction, and brand concept guidance
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Concept note
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ESVORA is a brand concept. Fragrance notes are creative direction; the site does not claim that products are manufactured, available to buy, or made with verified ingredients.
 
-## Deploy on Vercel
+## Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Designed and built by [Yassine Joundi](https://github.com/yassinejoundi).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 ESVORA
